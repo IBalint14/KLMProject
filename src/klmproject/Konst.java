@@ -53,6 +53,15 @@ package klmproject;
     public void setPart2(String part2) {
         this.part2 = part2;
     }
+    public boolean kuszob() {
+        
+        if(this.szavazat2>=100){
+            return true;
+        }else
+            return false;
+
+            
+    }
     
      
 }
